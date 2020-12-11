@@ -1,0 +1,28 @@
+.text-main {
+  color: #ad1862 !important;
+}
+
+.bg-top {
+  background: #44192c;
+}
+
+.bg-quiz {
+  background-color: #dfa4ba;
+}
+
+div.intro h2 {
+  letter-spacing: 15px;
+}
+
+div.result p {
+  color: #ff4c3b;
+}
+
+div.quiz h2 {
+  color: #44192c;
+  opacity: 0.8;
+}
+
+footer span {
+ color: #dfa4ba; 
+}

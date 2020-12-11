@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>QUIZ - Are you addicted to TV series?</title>
+</head>
+
+<body>
+  <!-- top section -->
+  <div class="intro py-3 bg-top text-center">
+    <div class="container">
+      <h2 class="text-main display-1 my-4">QUIZ</h2>
+      <h3 class="text-main display-8 my-4 fs-3">TV series addiction</h3>
+    </div>
+  </div>
+
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p class="fw-normal">You are <span class="display-4 p-3">0%</span> addicted</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-quiz">
+    <div class="container">
+      <h2 class="display-8 my-4 fs-3 fst-italic">On with the questions...</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead fs-5 fw-normal">1. How much time do you spend watching TV series during the week?
+          </p>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q1" value="A" checked>
+              less than 10 hours</label>
+          </div>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q1" value="B">
+              more than 10 hours</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead fs-5 fw-normal">2. Do you spread watching the series over time? Or do you watch the entire
+            season at once?</p>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q2" value="A" checked>
+              I'm binge-watcher</label>
+          </div>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q2" value="B">
+              I like to dose</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead fs-5 fw-normal">3. Do you subscribe platforms such as Netflix / HBO GO?</p>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q3" value="A" checked>
+              Yes</label>
+          </div>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q3" value="B">
+              No</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead fs-5 fw-normal">4. Do you join topic groups / forums / fandoms about your favorite TV
+            series?</p>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q4" value="A" checked>
+              I do not. I go for next serie quickly</label>
+          </div>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q4" value="B">
+              I do. I love being part of my fav series</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead fs-5 fw-normal">5. Is fall or winter your favorite season because you can watch series
+            without remorse?</p>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q5" value="A" checked>
+              Definitely</label>
+          </div>
+          <div class="form-check my-2 text-light">
+            <label class="form-check-label">
+              <input type="radio" name="q5" value="B">
+              Not really</label>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <input type="submit" class="btn btn-light">
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <footer class="py-4 text-center bg-light"><span>Copyright - IG 2020</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
